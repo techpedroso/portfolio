@@ -1,0 +1,39 @@
+.own-css-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.own-css-container.reverse {
+    flex-direction: row-reverse;
+}
+
+.own-css-container__content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    max-width: 50vw;
+}
+
+.own-css-container__content div {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.own-css-container__content h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.own-css-container__content p {
+    text-align: start;
+}
+
+.own-css-container__image img {
+    border-radius: 24px;
+    width: 100vw;
+    max-width: 30vw;
+}

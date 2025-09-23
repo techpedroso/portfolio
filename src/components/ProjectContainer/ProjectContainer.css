@@ -1,0 +1,27 @@
+.own-css-projectContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+
+    width: 100vw;
+    max-width: 80vw;
+}
+
+.own-css-projectContainer__category {
+
+}
+
+.own-css-projectContainer__title {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.own-css-projectContainer__content {
+
+}
+
+.own-css-projectContainer__image {
+    max-width: 500px;
+}

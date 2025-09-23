@@ -1,0 +1,8 @@
+.own-css-anchor {
+    color: #2f2f2f;
+    text-decoration: none;
+}
+
+.own-css-anchor:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,17 @@
+.own-css-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100vw;
+    max-width: 95vw;
+    padding: 12px 48px;
+
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.own-css-nav {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}

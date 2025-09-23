@@ -1,0 +1,40 @@
+.own-css-introductionContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    
+}
+
+.own-css-introductionContainer__buttons {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+}
+
+.own-css-introductionContainer h2, p {
+    text-align: center;
+}
+
+.own-css-introductionContainer h2 {
+    font-size: 80px;
+}
+
+.own-css-introductionContainer p {
+    font-size: 24px;
+}
+
+.own-css-introductionContainer div button {
+    margin: 6px;
+}
+
+.own-css-titleContentContainer h2 {
+    font-size: 48px;
+}
+
+.own-css-titleContentContainer p {
+    font-size: 20px;
+}

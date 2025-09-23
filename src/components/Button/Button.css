@@ -1,0 +1,42 @@
+.own-css-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+
+    background-color: transparent;
+
+    border: none;
+    border-radius: 8px;
+    padding: 8px 30px;
+    font-size: 16px;
+
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.own-css-button.w15 {
+    width: 16%;
+}
+
+.own-css-button.black {
+    background-color: black;
+    color: #FFFFFF;
+    border: none;
+}
+
+.own-css-button.white {
+    background-color: white;
+    color: black;
+    border: 1px solid #e3e3e3;
+}
+
+.own-css-button.blue {
+    background-color: #0077B5 ;
+    color: white;
+    border: none;
+}
+
+.own-css-button img {
+    width: 16px;
+}
