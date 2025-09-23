@@ -18,7 +18,7 @@ export default function IntroductionContainer({ title, content }: IntroductionCo
 
             <div className="own-css-introductionContainer__buttons">
                 {/* <Button image={arrowDownImg} label="View My Projects" className="black" width="w15"/> */}
-                <Button image={downloadImg} label="Download Resume" className="white" width="w15" href="./public/YasminCardosoResume.pdf" download/>
+                <Button image={downloadImg} label="Download Resume" className="white" width="w15" href="/YasminCardosoResume.pdf" download/>
             </div>
         </div>
     );

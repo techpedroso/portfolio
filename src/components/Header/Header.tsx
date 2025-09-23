@@ -15,7 +15,7 @@ export default function Header() {
         <Anchor label="About" href="#"/>
         <Anchor label="Experience" href="#"/>
         <Anchor label="Projects" href="#"/>
-        <Button label="Resume" className="white" href="./public/YasminCardosoResume.pdf" download/>
+        <Button label="Resume" className="white" href="/YasminCardosoResume.pdf" download/>
       </nav>
     </header>
   );
