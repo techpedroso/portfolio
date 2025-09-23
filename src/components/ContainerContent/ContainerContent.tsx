@@ -2,10 +2,6 @@ import "./ContainerContent.css";
 
 import Button from "../Button/Button";
 
-import phoneIcon from "../../assets/phone-call.png";
-import emailIcon from "../../assets/mail.png";
-
-
 type ContainerContent = {
     title: string;
     content: React.ReactNode;

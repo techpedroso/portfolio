@@ -1,6 +1,5 @@
 import "./IntrocutionContainer.css";
 
-import arrowDownImg from "../../assets/white-arrow-down.png";
 import downloadImg from "../../assets/black-download.png";
 
 import Button from "../Button/Button";
