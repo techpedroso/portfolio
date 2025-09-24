@@ -4,8 +4,6 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
-
-    
 }
 
 .own-css-introductionContainer__buttons {
@@ -15,7 +13,8 @@
     width: 100%;
 }
 
-.own-css-introductionContainer h2, p {
+.own-css-introductionContainer h2,
+p {
     text-align: center;
 }
 
@@ -37,4 +36,21 @@
 
 .own-css-titleContentContainer p {
     font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    .own-css-introductionContainer {
+        gap: 10px;
+        padding: 0 16px;
+        padding-top: 70px;
+    }
+
+    .own-css-introductionContainer h2 {
+        font-size: 60px;
+    }
+
+    .own-css-titleContentContainer {
+        padding: 16px;
+    }
+
 }
