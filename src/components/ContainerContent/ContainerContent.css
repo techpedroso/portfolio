@@ -37,3 +37,26 @@
     width: 100vw;
     max-width: 30vw;
 }
+
+@media (max-width: 768px) {
+    .own-css-container {
+        gap: 20px;
+    }
+
+    .own-css-container.reverse {
+        flex-direction: column;
+    }
+
+    .own-css-container__content {
+        max-width: 100%;
+    }
+
+    .own-css-container__content h2 {
+        font-size: 32px;
+    }
+
+    .own-css-container__image img {
+        max-width: 100%;
+        width: 80vw;
+    }
+}

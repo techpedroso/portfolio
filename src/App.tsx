@@ -3,6 +3,7 @@ import "./App.css"
 
 //components
 import Header from "./components/Header/Header";
+import MobileHeader from "./components/MobileHeader/MobileHeader";
 import Introduction from "./components/IntroductionContainer/IntroductionContainer";
 import { TitleContentContainer } from "./components/IntroductionContainer/IntroductionContainer";
 import ProjectContainer from "./components/ProjectContainer/ProjectContainer";
@@ -18,6 +19,7 @@ function App() {
   return (
     <div className="container-main">
       <Header />
+      <MobileHeader />
 
       <Introduction
         title={

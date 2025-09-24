@@ -25,3 +25,16 @@
 .own-css-projectContainer__image {
     max-width: 500px;
 }
+
+
+@media(max-width: 768px) {
+    .own-css-projectContainer {
+        flex-direction: column;
+        gap: 20px;
+        max-width: 90vw;
+    }
+
+    .own-css-projectContainer__image {
+        max-width: 100%;
+    }
+}

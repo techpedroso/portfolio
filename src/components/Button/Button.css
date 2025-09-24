@@ -40,3 +40,18 @@
 .own-css-button img {
     width: 16px;
 }
+
+@media (max-width: 768px) {
+    .own-css-button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    .own-css-button img {
+        width: 16px;
+    }
+
+    .own-css-button.w15 {
+    width: 50%;
+}
+}
